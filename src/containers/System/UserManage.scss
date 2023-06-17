@@ -14,3 +14,24 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+td {
+  .btn-edit,
+  .btn-delete {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(235, 15, 15);
+    &:hover {
+      background-color: transparent !important;
+      color: rgb(235, 15, 15);
+    }
+  }
+  .btn-edit {
+    color: rgb(220, 235, 15);
+    &:hover {
+    color: rgb(220, 235, 15);
+    }
+  }
+}
