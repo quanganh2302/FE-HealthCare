@@ -31,7 +31,32 @@ td {
   .btn-edit {
     color: rgb(220, 235, 15);
     &:hover {
-    color: rgb(220, 235, 15);
+      color: rgb(220, 235, 15);
     }
   }
 }
+
+.modal-user-container {
+  .modal-user-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    .input-container {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      &:last-of-type{
+        width: 100%;
+      }
+      input {
+        border-radius: 3px;
+        height: 30px;
+        border: 1px solid grey;
+        outline: none;
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
